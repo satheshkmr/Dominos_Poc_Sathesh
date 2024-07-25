@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="116.181" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Food order from Dominos" name="Order food" time="115.887">
+<system-out><![CDATA[
+Given the user launch Dominos url...........................................passed
+When the user click order online now button.................................passed
+And the user click delivery radio button....................................passed
+And the user enter the Area/locality in the locate me field.................passed
+And the user click VEG PIZZA in the top of the margin menu..................passed
+And the user click Margherita pizza add to cart click two Qty...............passed
+And the user click Peppy Paneer pizza add to cart click two Qty.............passed
+And the user click Primavera Gourmet-Pizza add to cart click two Qty........passed
+And the user click BEVERAGES in the top of the margin menu..................passed
+And the user click Pepsi 475ml add to cart click twelve Qty.................passed
+When the user remove  one qty Margherita from the cart......................passed
+And the user remove six qty 475ml from the cart.............................passed
+And the user verify the cart click the checkout button......................passed
+And the user view the place order page and subtotal price...................passed
+Then the user verify the address and price details click place order button.passed
+]]></system-out>
+</testcase>
+</testsuite>
